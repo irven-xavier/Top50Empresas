@@ -14,7 +14,16 @@ Este projeto realiza uma análise financeira de empresas listadas nas bolsas **N
 
 ## Análise Exploratória dos Dados
 
-A EDA buscou entender como os dados estavam inseridos no Dataset. Foi verificado o tipo dos dados,elementos duplicados, a quantidade de linhas e colunas bem como a contagem única de empresas. 
+A EDA buscou entender como os dados estavam inseridos no Dataset. Foi verificado o tipo dos dados, elementos duplicados, a quantidade de linhas e colunas bem como a contagem única de empresas. 
 
 Ainda nesta parte pequenas transformações ocorreram a fim de mudar o tipo de uma coluna e a adição de 3 novas colunas ao Dataset.
 
+## Análise Diagnóstica
+
+Ao selecionar as 50 empresas mais lucrativas das bolsas **NYSE** e **NASDAQ**, foi feita a investigação do Fluxo de Caixa dessas empresas, com o objetivo de entender como empresas que lucram perforam nas movimentações de operação, investimento e financiamento. 
+
+Observou-se que nem sempre essas empresas apresentavam Fluxos de Caixa saudáveis, onde critérios como conversão de lucro em caixa operacional e necessidade de capital de terceiros foram determinantes para identificar empresas com boa situação financeira.
+
+Após esta identificação, foi feita uma conexão à API da Marketstack para trazer mais informações sobre as empresas como por exemplo o nome completo, segmento do setor e os preços de abertura e fechamento entre os dias de 01/07/2024 e 05/07/2024 a fim de entender o comportamento desses preços. Para tal, foi utilizado um gráfico de linha para cada empresa para uma melhor visualização destas variações dia a dia.
+
+A análise completa, códigos de conexão da API e gráficos estão no [Jupyter Notebook](https://github.com/irven-xavier/Top50Empresas/blob/main/Analise_Lucro_DFC_NYSE_NASDAQ.ipynb)
