@@ -27,3 +27,17 @@ Observou-se que nem sempre essas empresas apresentavam Fluxos de Caixa saudávei
 Após esta identificação, foi feita uma conexão à API da Marketstack para trazer mais informações sobre as empresas como por exemplo o nome completo, segmento do setor e os preços de abertura e fechamento entre os dias de 01/07/2024 e 05/07/2024 a fim de entender o comportamento desses preços. Para tal, foi utilizado um gráfico de linha para cada empresa para uma melhor visualização destas variações dia a dia.
 
 A análise completa, códigos de conexão da API e gráficos estão no [Jupyter Notebook](https://github.com/irven-xavier/Top50Empresas/blob/main/Analise_Lucro_DFC_NYSE_NASDAQ.ipynb)
+
+## Considerações e Limitações:
+
+1. A data de publicação não faz referência a qual período está sendo considerado nas demonstrações financeiras, portanto assume-se que o ano/mês da data é o próprio ano (exercício) fiscal.
+
+2. A análise das demonstrações é limitada pela falta dos balanços patrimoniais das empresas. Desta forma, fica inviável analisar índices cruciais como liquidez, endividamento e giro de estoque por exemplo.
+
+3. O Lucro Líquido (Net Income) é apenas um pequeno extrato da DRE (P&L Report), portanto métricas como EBITDA e EBIT e contas como Receita Bruta, Impostos e Despesas Operacionais de um determindado exercício não foram considerados pela falta dos mesmos.
+
+4. A análise de Fluxo de Caixa Investimento foi desconsiderada do produto final da análise, pois entende-se que tais movimentações compõe mudanças no Ativo da empresa, o qual não pode ser analisado pela falta do mesmo. O Dataset original não fornece detalhamento das aquisições e receitas financeiras, por exemplo.
+
+5. A API da Marketstack tem um limite de 100 requests por mês no plano "Free". Portanto, não foi possível extrair dados históricos robustos sobre o comportamento dos preços de abertura e fechamento das empresas selecionadas entre os períodos analisados.
+
+6. A análise, como um todo, desconsidera completamente fatores macroecônomicos e tendências de mercado.
