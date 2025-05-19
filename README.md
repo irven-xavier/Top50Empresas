@@ -14,9 +14,9 @@ Este projeto realiza uma análise financeira de empresas listadas nas bolsas **N
 
 ## Análise Exploratória dos Dados
 
-A EDA buscou entender como os dados estavam inseridos no Dataset. Foi verificado o tipo dos dados, elementos duplicados, a quantidade de linhas e colunas bem como a contagem única de empresas. 
+A EDA buscou entender como os dados estavam inseridos no Dataset. Foi verificado o tipo dos dados, elementos duplicados, a quantidade de linhas e colunas bem como a contagem única de empresas, entre outros componentes.
 
-Ainda nesta parte pequenas transformações ocorreram a fim de mudar o tipo de uma coluna e a adição de 3 novas colunas ao Dataset.
+Ainda nesta parte, pequenas transformações ocorreram a fim de mudar o tipo de uma coluna e a adição de 3 novas colunas ao Dataset.
 
 ## Análise Diagnóstica
 
