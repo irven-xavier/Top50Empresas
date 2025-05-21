@@ -18,7 +18,7 @@ A EDA buscou entender como os dados estavam inseridos no Dataset. Foi verificado
 
 Ainda nesta parte, pequenas transformações ocorreram a fim de mudar o tipo de uma coluna e a adição de 3 novas colunas ao Dataset.
 
-## Análise Diagnóstica
+## Análise Descritiva
 
 Ao selecionar as 50 empresas mais lucrativas das bolsas **NYSE** e **NASDAQ**, foi feita a investigação do Fluxo de Caixa dessas empresas, com o objetivo de entender como empresas que lucram perforam nas movimentações de operação, investimento e financiamento. 
 
@@ -28,7 +28,7 @@ Após esta identificação, foi feita uma conexão à API da Marketstack para tr
 
 A análise completa, códigos de conexão da API e gráficos estão no [Jupyter Notebook](https://github.com/irven-xavier/Top50Empresas/blob/main/Analise_Lucro_DFC_NYSE_NASDAQ.ipynb)
 
-## Considerações e Limitações:
+## Considerações e Limitações
 
 1. A data de publicação não faz referência a qual período está sendo considerado nas demonstrações financeiras, portanto assume-se que o ano/mês da data é o próprio ano (exercício) fiscal.
 
