@@ -20,7 +20,7 @@ Ainda nesta parte, pequenas transformações ocorreram a fim de mudar o tipo de 
 
 ## Análise Descritiva
 
-Ao selecionar as 50 empresas mais lucrativas das bolsas **NYSE** e **NASDAQ**, foi feita a investigação do Fluxo de Caixa dessas empresas, com o objetivo de entender como empresas que lucram perforam nas movimentações de operação, investimento e financiamento. 
+Ao selecionar as 50 empresas mais lucrativas das bolsas **NYSE** e **NASDAQ**, foi feita a investigação do Fluxo de Caixa dessas empresas, com o objetivo de entender como empresas que lucram performam nas movimentações de operação, investimento e financiamento. 
 
 Observou-se que nem sempre essas empresas apresentavam Fluxos de Caixa saudáveis, onde critérios como conversão de lucro em caixa operacional e necessidade de capital de terceiros foram determinantes para identificar empresas com boa situação financeira.
 
