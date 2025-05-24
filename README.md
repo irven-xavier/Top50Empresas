@@ -34,7 +34,7 @@ A análise completa, códigos de conexão da API e gráficos estão no [Jupyter 
 
 2. A análise das demonstrações é limitada pela falta dos balanços patrimoniais das empresas. Desta forma, fica inviável analisar índices cruciais como liquidez, endividamento e giro de estoque por exemplo.
 
-3. O Lucro Líquido (Net Income) é apenas um pequeno extrato da DRE (P&L Report), portanto métricas como EBITDA e EBIT e contas como Receita Bruta, Impostos, CMV/CSP e Despesas Operacionais de um determindado exercício não foram considerados pela falta dos mesmos.
+3. O Lucro Líquido (Net Income) é apenas um pequeno extrato da DRE (P&L Report), portanto métricas como EBITDA e EBIT e contas como Receita Bruta, Impostos, CMV/CSP e Despesas Operacionais de um determinado exercício não foram considerados pela falta dos mesmos.
 
 4. A análise de Fluxo de Caixa Investimento foi desconsiderada do produto final da análise, pois entende-se que tais movimentações compõe mudanças no Ativo da empresa, o qual não pode ser analisado pela falta do mesmo. O Dataset original não fornece detalhamento das aquisições e receitas financeiras, por exemplo.
 
