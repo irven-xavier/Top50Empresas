@@ -41,3 +41,11 @@ A análise completa, códigos de conexão da API e gráficos estão no [Jupyter 
 5. A API da Marketstack tem um limite de 100 requests por mês no plano "Free". Portanto, não foi possível extrair dados históricos robustos sobre o comportamento dos preços de abertura e fechamento das empresas selecionadas entre os períodos analisados.
 
 6. A análise, como um todo, desconsidera completamente fatores macroecônomicos e tendências de mercado.
+
+## Conclusões
+
+Análises financeiras desbloqueiam inúmeros novos portais para a realidade de empresas listadas nas bolsas mundo afora. Unir Demonstrações financeiras completas (DRE, DFC, Balanço Patrimonial, entre outros) às análises de mercado e macroeconomia costumam dar mais confiabilidade na hora de comprar uma ação.
+
+O presente trabalho está bem longe de ser um conselho financeiro, faltam várias outras informações para uma tomada de decisão de comprar ações mais assertivas,  além do Dataset pouco confiável.
+
+Para conferir um overview sobre a análise feita clique [Aqui](https://github.com/irven-xavier/Top50Empresas/blob/main/Apresenta%C3%A7%C3%A3o/Apresenta%C3%A7%C3%A3o%20-%20An%C3%A1lise%20de%20Lucro%20e%20DFC%20de%20empresas%20da%20NYSE%20e%20NASDAQ.pdf) para abrir o arquivo em PDF da apresentação.
